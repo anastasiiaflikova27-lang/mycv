@@ -64,3 +64,9 @@ Open `index.html` in your browser.
 ## How to deploy
 
 Upload the folder to GitHub and connect it to Vercel or Netlify.
+
+## Contact
+
+- Email: anastasiia.flikova27@outlook.com
+- GitHub: https://github.com/anastasiiaflikova27-lang
+- LinkedIn: https://www.linkedin.com/in/anastasiia-flikova-1686b828a/?locale=ru
