@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anastasiia Flikova — Front-End & Digital Designer</title>
+  <meta name="description" content="Portfolio and interactive CV of Anastasiia Flikova — Junior Front-End Developer creating responsive websites, UI/UX, branding and marketing-aware digital experiences." />
+  <meta property="og:title" content="Anastasiia Flikova — Portfolio" />
+  <meta property="og:description" content="Front-end, UI/UX, web projects, GitHub work and interactive CV." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="logo" href="#top">AF.</a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#code">Code Lab</a>
+      <a href="#cv">CV</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Let’s collaborate <span>✦</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <aside class="mobile-menu" aria-hidden="true">
+    <button class="menu-close" aria-label="Close menu">×</button>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#code">Code Lab</a>
+    <a href="#cv">CV</a>
+    <a href="#stack">Stack</a>
+    <a href="#contact">Contact</a>
+  </aside>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Hello, I’m <span>✦</span></p>
+        <h1>Anastasiia <em>Flikova</em></h1>
+        <p class="role">Junior Front-End Developer</p>
+        <p class="tags">HTML · CSS · JavaScript · UI/UX · Responsive Websites</p>
+        <p class="location">⌖ Oulu, Finland</p>
+        <div class="availability">✦ Available for Front-End internships & junior web roles</div>
+        <div class="hero-actions">
+          <a class="btn primary magnetic" href="#projects">View projects <span>→</span></a>
+          <a class="btn ghost magnetic" href="#cv">Interactive CV <span>↓</span></a>
+          <a class="btn ghost magnetic" href="#contact">Let’s collaborate <span>✦</span></a>
+        </div>
+        <div class="hero-proof">
+          <div><strong>What I can do now</strong><span>Build responsive landing pages, improve UI, deploy projects and present work clearly.</span></div>
+          <div><strong>Best fit</strong><span>Junior Front-End · Web Design · UI implementation · Content-aware websites</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-orbit">
+          <span>Available · 2026 · Junior Roles · Remote ·</span>
+        </div>
+        <div class="portrait-frame tilt">
+          <img src="assets/hero.jpg" alt="Portrait of Anastasiia Flikova holding a diploma folder" />
+        </div>
+        <p class="hand-note">Design<br/>with purpose ♡</p>
+        <div class="hero-card mini-card glass">
+          <strong>Core direction</strong>
+          <span>I build responsive websites that look polished, work clearly, and are easy to understand — from structure and UI to HTML/CSS/JavaScript implementation.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-bar reveal" aria-label="Portfolio highlights">
+      <div><strong>5</strong><span>live websites</span></div>
+      <div><strong>8</strong><span>GitHub projects shown</span></div>
+      <div><strong>3</strong><span>client-style cases</span></div>
+      <div><strong>4</strong><span>languages</span></div>
+    </section>
+
+    <section class="motion-strip" aria-hidden="true">
+      <div class="marquee">
+        <span>FRONT-END ✦ UI/UX DESIGN ✦ BRANDING ✦ MARKETING-AWARE WEBSITES ✦ GITHUB PROJECTS ✦ INTERACTIVE CV ✦</span>
+        <span>FRONT-END ✦ UI/UX DESIGN ✦ BRANDING ✦ MARKETING-AWARE WEBSITES ✦ GITHUB PROJECTS ✦ INTERACTIVE CV ✦</span>
+      </div>
+    </section>
+
+    <section class="recruiter-snapshot section" id="hire">
+      <div class="section-top reveal">
+        <div>
+          <p class="eyebrow">Recruiter quick view</p>
+          <h2>Why I’m a strong <em>junior candidate.</em></h2>
+          <p class="section-subtitle light">I’m not presenting myself as a senior. I’m showing something more useful for a junior role: initiative, taste, live projects, GitHub proof and the ability to turn ideas into working websites.</p>
+        </div>
+      </div>
+
+      <div class="hire-grid reveal">
+        <article>
+          <span>01</span>
+          <h3>I can ship</h3>
+          <p>Live websites, Vercel deployments, GitHub repositories and projects that can be opened and checked.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>I understand UI</h3>
+          <p>I build with hierarchy, spacing, typography, mobile layouts and user flow — not random blocks.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>I think beyond code</h3>
+          <p>Marketing and branding experience helps me understand offer, audience, CTA and content structure.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>I’m easy to train</h3>
+          <p>I learn fast, document my work, ask practical questions and already have real project momentum.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About me</p>
+        <h2>Front-end with <em>product taste.</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I’m a Business Information Technology student based in Oulu, Finland, focused on front-end development and digital design.</p>
+          <p>I create responsive websites from idea to launch: structure, UI, content logic, interaction details and clean HTML/CSS/JavaScript implementation.</p>
+          <p>My strongest advantage is the mix of front-end execution, design taste and marketing thinking — I can build the site, shape the visual system and make the message clear for the user.</p>
+        </div>
+        <div class="value-grid reveal">
+          <article><span>01</span><h3>Front-end base</h3><p>Responsive layouts, HTML, CSS, JavaScript and implementation thinking.</p></article>
+          <article><span>02</span><h3>Design direction</h3><p>Editorial typography, UI structure, brand mood and visual systems.</p></article>
+          <article><span>03</span><h3>Marketing logic</h3><p>Clear offer, user journey, trust blocks, CTAs and content hierarchy.</p></article>
+          <article><span>04</span><h3>Real projects</h3><p>Client websites, concepts, apps and portfolio projects with live links.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-top reveal">
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects by <em>folders.</em></h2>
+          <p class="section-subtitle">A focused project system: client websites, creative concepts, and front-end/app work. Open any project to see a short case study with links.</p>
+        </div>
+        <div class="project-controls folder-tabs" aria-label="Project folders">
+          <button class="folder-tab active" data-folder="client">Client Websites</button>
+          <button class="folder-tab" data-folder="concept">Creative Concepts</button>
+          <button class="folder-tab" data-folder="frontend">Front-End / Apps</button>
+          <button class="folder-tab" data-folder="all">All</button>
+        </div>
+      </div>
+
+      <div class="folder-panel active reveal" data-panel="client">
+        <div class="project-carousel">
+          <article class="project-card tilt open-project" data-project="lianna">
+            <img src="assets/lianna.svg" alt="Lianna Psychologist Site preview" />
+            <div><p>Personal-brand psychology website</p><h3>Lianna Psychologist Site</h3><span>UI/UX · WEB DESIGN · CONTENT</span></div>
+          </article>
+          <article class="project-card tilt open-project" data-project="woodservice">
+            <img src="assets/woodservice.svg" alt="Woodservice Website preview" />
+            <div><p>Premium service website</p><h3>Woodservice Website</h3><span>FRONT-END · RESPONSIVE · SEO</span></div>
+          </article>
+          <article class="project-card tilt open-project" data-project="ars">
+            <img src="assets/ars.svg" alt="ARS DeStudio preview" />
+            <div><p>Interior renovation studio</p><h3>ARS DeStudio</h3><span>WEB DESIGN · BRANDING · CLIENT SITE</span></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="folder-panel reveal" data-panel="concept">
+        <div class="project-carousel">
+          <article class="project-card tilt open-project featured" data-project="pilaze">
+            <img src="assets/pilaze.svg" alt="Pilaze Society project preview" />
+            <div><p>Full luxury pilates concept</p><h3>Pilaze Society</h3><span>IDEA · ART DIRECTION · CODE</span></div>
+          </article>
+          <article class="project-card tilt open-project" data-project="blush">
+            <img src="assets/blush-thorn.svg" alt="Blush & Thorn project preview" />
+            <div><p>Bold beauty / brand concept</p><h3>Blush & Thorn</h3><span>BRANDING · WEB DESIGN · VISUAL IDENTITY</span></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="folder-panel reveal" data-panel="frontend">
+        <div class="project-carousel">
+          <article class="project-card tilt open-project featured" data-project="jobtracker">
+            <img src="assets/jobtracker.svg" alt="Job Tracker App project preview" />
+            <div><p>Job-search product concept</p><h3>Job Tracker App</h3><span>APP UI · JAVASCRIPT · UX LOGIC</span></div>
+          </article>
+          <article class="project-card tilt open-project" data-project="pilaze">
+            <img src="assets/pilaze.svg" alt="Pilaze Society project preview" />
+            <div><p>Luxury one-page website</p><h3>Pilaze Society</h3><span>INTERACTIONS · CURSOR · LAYOUT</span></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="folder-panel reveal" data-panel="all">
+        <div class="project-carousel">
+          <article class="project-card tilt open-project" data-project="lianna"><img src="assets/lianna.svg" alt="Lianna preview" /><div><p>Client website</p><h3>Lianna Psychologist Site</h3><span>UI/UX · WEB · CONTENT</span></div></article>
+          <article class="project-card tilt open-project" data-project="woodservice"><img src="assets/woodservice.svg" alt="Woodservice preview" /><div><p>Client website</p><h3>Woodservice Website</h3><span>FRONT-END · WEB</span></div></article>
+          <article class="project-card tilt open-project" data-project="ars"><img src="assets/ars.svg" alt="ARS preview" /><div><p>Client website</p><h3>ARS DeStudio</h3><span>WEB · BRANDING</span></div></article>
+          <article class="project-card tilt open-project" data-project="pilaze"><img src="assets/pilaze.svg" alt="Pilaze preview" /><div><p>Full concept</p><h3>Pilaze Society</h3><span>IDEA · VISUAL · CODE</span></div></article>
+          <article class="project-card tilt open-project" data-project="jobtracker"><img src="assets/jobtracker.svg" alt="Job Tracker preview" /><div><p>App concept</p><h3>Job Tracker App</h3><span>APP UI · JS · UX</span></div></article>
+          <article class="project-card tilt open-project" data-project="blush"><img src="assets/blush-thorn.svg" alt="Blush preview" /><div><p>Brand concept</p><h3>Blush & Thorn</h3><span>BRANDING · WEB</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section code-lab" id="code">
+      <div class="section-top reveal">
+        <div>
+          <p class="eyebrow">Code Lab</p>
+          <h2>Project proof, <em>ready to check.</em></h2>
+          <p class="section-subtitle light">Open the live sites, inspect the repositories and quickly understand what I built, why it matters and how I think.</p>
+        </div>
+        <a class="text-link" href="https://github.com/anastasiiaflikova27-lang" target="_blank" rel="noreferrer">View GitHub profile →</a>
+      </div>
+
+      <div class="repo-grid expanded reveal">
+        <article class="repo-card tilt">
+          <div class="repo-top"><span class="repo-icon">L</span><button class="repo-more">⋮</button></div>
+          <h3>Lianna Psychologist Site</h3>
+          <p>Client website for expert services, personal brand presentation and content-led client journey.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>UX</span></div>
+          <div class="repo-links">
+            <a href="http://www.lianapsychologist.online" target="_blank" rel="noreferrer">Live →</a>
+            <a href="https://github.com/anastasiiaflikova27-lang/lianna-psychologist-site" target="_blank" rel="noreferrer">Repo →</a>
+          </div>
+        </article>
+
+        <article class="repo-card tilt">
+          <div class="repo-top"><span class="repo-icon">W</span><button class="repo-more">⋮</button></div>
+          <h3>Woodservice</h3>
+          <p>Premium static website for custom wood services with strong service and portfolio presentation.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+          <div class="repo-links">
+            <a href="https://woodservice.vercel.app/" target="_blank" rel="noreferrer">Live →</a>
+            <a href="https://github.com/anastasiiaflikova27-lang/Woodservice" target="_blank" rel="noreferrer">Repo →</a>
+          </div>
+        </article>
+
+        <article class="repo-card tilt featured-repo">
+          <div class="repo-top"><span class="repo-icon">P</span><button class="repo-more">⋮</button></div>
+          <h3>Pilaze Society</h3>
+          <p>Full luxury pilates concept: idea, visual identity direction, page structure, booking UX and front-end.</p>
+          <div class="chips"><span>Concept</span><span>CSS</span><span>JS</span></div>
+          <div class="repo-links">
+            <a href="https://pilaze.vercel.app" target="_blank" rel="noreferrer">Live →</a>
+            <a href="https://github.com/anastasiiaflikova27-lang/pilaze-society" target="_blank" rel="noreferrer">Repo →</a>
+          </div>
+        </article>
+
+        <article class="repo-card tilt">
+          <div class="repo-top"><span class="repo-icon">A</span><button class="repo-more">⋮</button></div>
+          <h3>ARS DeStudio</h3>
+          <p>Commercial site for an interior and investment renovation studio with premium service structure.</p>
+          <div class="chips"><span>Web</span><span>Branding</span><span>Client</span></div>
+          <div class="repo-links">
+            <a href="https://ars-destudio.ru" target="_blank" rel="noreferrer">Live →</a>
+            <a href="https://github.com/anastasiiaflikova27-lang/ars-site-final" target="_blank" rel="noreferrer">Repo →</a>
+          </div>
+        </article>
+
+        <article class="repo-card tilt">
+          <div class="repo-top"><span class="repo-icon">B</span><button class="repo-more">⋮</button></div>
+          <h3>Blush & Thorn</h3>
+          <p>Beauty / brand concept with a bold visual identity, editorial tone and memorable web direction.</p>
+          <div class="chips"><span>Branding</span><span>Web</span><span>Visual</span></div>
+          <div class="repo-links">
+            <a href="https://blush-thorn.vercel.app" target="_blank" rel="noreferrer">Live →</a>
+            <a href="https://github.com/anastasiiaflikova27-lang/blush-thorn" target="_blank" rel="noreferrer">Repo →</a>
+          </div>
+        </article>
+
+        <article class="repo-card tilt">
+          <div class="repo-top"><span class="repo-icon">J</span><button class="repo-more">⋮</button></div>
+          <h3>Job Tracker App</h3>
+          <p>Product-style app concept for organizing applications, roles, statuses and job-search progress.</p>
+          <div class="chips"><span>App UI</span><span>JavaScript</span><span>UX</span></div>
+          <div class="repo-links">
+            <a href="assets/jobtracker.svg" target="_blank" rel="noreferrer">Preview →</a>
+            <a href="https://github.com/anastasiiaflikova27-lang/job-tracker-app" target="_blank" rel="noreferrer">Repo →</a>
+          </div>
+        </article>
+
+        <article class="repo-card tilt">
+          <div class="repo-top"><span class="repo-icon">M</span><button class="repo-more">⋮</button></div>
+          <h3>Multaranta</h3>
+          <p>Community / resort website structure with Finnish content, practical navigation and clear sections.</p>
+          <div class="chips"><span>Content</span><span>HTML</span><span>CSS</span></div>
+          <div class="repo-links">
+            <a href="https://github.com/anastasiiaflikova27-lang/Multaranta" target="_blank" rel="noreferrer">Repo →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cv" id="cv">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Interactive CV</p>
+        <h2>Clear proof for <em>junior hiring.</em></h2>
+      </div>
+
+      <div class="cv-panel reveal">
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="fit">Role fit</button>
+          <button class="tab" data-tab="experience">Experience</button>
+          <button class="tab" data-tab="education">Education</button>
+          <button class="tab" data-tab="proof">Proof</button>
+        </div>
+
+        <div class="tab-content active" id="fit">
+          <div class="timeline-item">
+            <span>Target role</span>
+            <h3>Junior Front-End Developer / Web Designer</h3>
+            <p>I’m looking for a role where I can build responsive websites, improve UI, work with real content, support design implementation and grow inside a professional team.</p>
+          </div>
+          <div class="timeline-item">
+            <span>What I bring now</span>
+            <h3>Front-end execution + design judgment</h3>
+            <p>I can turn a visual direction into a working page, keep layouts responsive, prepare projects for deployment and make the final result feel polished.</p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="experience">
+          <div class="timeline-item">
+            <span>2025 — Present</span>
+            <h3>Freelance Front-End & Digital Designer</h3>
+            <p>Designing and building responsive websites, landing pages, interface concepts and brand-driven digital experiences for real client and portfolio projects.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2023 — 2025</span>
+            <h3>Customer Service & Kitchen Staff · Pizzeria Akkavaara</h3>
+            <p>Customer-facing experience that strengthened communication, responsibility, teamwork and practical business understanding.</p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="education">
+          <div class="timeline-item">
+            <span>2025 — 2028</span>
+            <h3>Oulu University of Applied Sciences</h3>
+            <p>Bachelor of Business Administration, Business Information Technology. Focus: web development, front-end, digital services, business logic and practical IT skills.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2022 — 2025</span>
+            <h3>Sallan lukio</h3>
+            <p>Finnish high school education after moving from Russia to Finland — multilingual and international adaptation experience.</p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="proof">
+          <div class="timeline-item">
+            <span>Portfolio proof</span>
+            <h3>What recruiters can check</h3>
+            <p>Live websites, GitHub repositories, responsive layouts, project modals, visual identity, content hierarchy, client-oriented structure and deployment experience.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2026</span>
+            <h3>Adobe · Design Fundamentals with AI</h3>
+            <p>Design fundamentals, UI thinking and AI-supported creative workflows.</p>
+          </div>
+        </div>
+
+        <aside class="cv-side">
+          <div><strong>Looking for</strong><span>Front-End Internship · Junior Front-End Developer · Junior Web Designer · Digital Designer</span></div>
+          <div><strong>Ready to help with</strong><span>Landing pages, responsive UI, website updates, visual polish, project pages, basic JS interactions.</span></div>
+          <div><strong>Tools</strong><span>HTML · CSS · JavaScript · Figma · GitHub · Vercel</span></div>
+          <div><strong>Languages</strong><span>Russian · English · Finnish · Spanish</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="section-top reveal">
+        <div>
+          <p class="eyebrow">Skills / Stack</p>
+          <h2>Tools I use to <em>build the idea.</em></h2>
+        </div>
+      </div>
+      <div class="stack-grid reveal">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span><span>UI/UX</span><span>Responsive Design</span><span>Branding</span><span>Content Design</span><span>GitHub</span><span>Vercel</span><span>Digital Marketing</span><span>Visual Identity</span>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">Let’s work together</p>
+          <h2>Available for front-end internships, junior roles and remote projects.</h2>
+          <p>I’m open to opportunities where I can build responsive websites, improve UX, support visual identity and bring marketing-aware thinking into digital products.</p>
+          <div class="contact-links">
+            <a href="mailto:anastasiia.flikova27@gmail.com">Email</a>
+            <a href="https://github.com/anastasiiaflikova27-lang" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:anastasiia.flikova27@gmail.com?subject=CV request — Anastasiia Flikova">Request CV</a>
+          </div>
+        </div>
+        <img src="assets/contact-photo.jpg" alt="Anastasiia Flikova portrait with glasses" />
+      </div>
+    </section>
+  </main>
+
+  <dialog class="project-modal" id="projectModal">
+    <button class="modal-close" aria-label="Close project">×</button>
+    <div class="modal-layout">
+      <div class="modal-media"><img id="modalImage" src="" alt="" /></div>
+      <div class="modal-copy">
+        <p class="eyebrow" id="modalType"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalIntro"></p>
+        <div class="modal-columns">
+          <div><strong>Role</strong><span id="modalRole"></span></div>
+          <div><strong>Focus</strong><span id="modalFocus"></span></div>
+          <div><strong>Stack</strong><span id="modalStack"></span></div>
+        </div>
+        <div class="modal-section"><h3>What I built</h3><p id="modalStory"></p></div>
+        <div class="modal-section"><h3>Why it matters</h3><p id="modalImpact"></p></div>
+        <div class="modal-actions">
+          <a id="modalLive" class="btn primary" href="#" target="_blank" rel="noreferrer">View live site →</a>
+          <a id="modalRepo" class="btn ghost" href="#" target="_blank" rel="noreferrer">Open GitHub →</a>
+          <button class="btn ghost modal-next" type="button">Next project →</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <footer>
+    <a class="logo" href="#top">AF.</a>
+    <p>© 2026 Anastasiia Flikova. Built as a responsive career hub.</p>
+    <p>Based in Oulu, Finland · Available worldwide</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
